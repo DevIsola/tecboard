@@ -8,7 +8,6 @@
 body {
   background-color: #0e1014;
   color: #ffffff;
-  font-size: 21pt;
 }
 
 header img {
@@ -18,18 +17,18 @@ header img {
 
 h1 {
   font-size: 64px;
-  font-family: "Unbounded";
+  font-family: "Unbounded", sans-serif;
   text-align: center;
   margin-top: 60px;
 }
 
-span {
+h1 span {
   color: #9747ff;
 }
 
 p {
   font-size: 24px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   text-align: center;
   margin: 24px auto 0;
   width: 792px;
@@ -38,7 +37,7 @@ p {
 a {
   display: block;
   color: #ffffff;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-size: 24px;
   text-decoration: none;
   text-align: center;
@@ -47,7 +46,7 @@ a {
   height: 66px;
   line-height: 66px;
   border-radius: 36px;
-  margin: 30px auto;
+  margin: 40px auto;
 }
 
 a:hover {
@@ -58,7 +57,7 @@ section img {
   display: block;
   width: 792px;
   height: 446px;
-  margin: 40px auto;
+  margin: 0 auto;
 }
 
 @media (max-width: 768px) {
